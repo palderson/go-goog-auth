@@ -29,7 +29,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/google/google-api-go-client/plus/v1"
+	"google.golang.org/api/plus/v1"
 	"github.com/gorilla/sessions"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
@@ -37,8 +37,8 @@ import (
 
 // Update your Google API project information here.
 const (
-	clientID        = "YOUR_CLIENT_ID"
-	clientSecret    = "YOUR_CLIENT_SECRET"
+	clientID        = "ClientID"
+	clientSecret    = "ClientSecret"
 	applicationName = "Google+ Go Quickstart"
 )
 
